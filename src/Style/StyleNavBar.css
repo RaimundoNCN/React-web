@@ -1,7 +1,11 @@
-.navBar {
+.routes {
+  padding-right: 26px;
+  margin: 0px;
+  text-align: right;
+
+  font-size: larger;
 }
 
-.routes {
-  padding: 2px 26px;
-  text-align: right;
+ul {
+  text-align: center;
 }

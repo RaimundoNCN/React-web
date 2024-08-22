@@ -6,9 +6,13 @@ const NavBar = () => {
   return (
     <header>
       <nav className="navBar">
-        <ul className="routes">
-          <Link to="/">Inicio</Link>
-          <Link to="/contacts">Contatos</Link>
+        <ul>
+          <Link className="routes" to="/">
+            Inicio
+          </Link>
+          <Link className="routes" to="/contacts">
+            Contatos
+          </Link>
         </ul>
       </nav>
       <hr />
