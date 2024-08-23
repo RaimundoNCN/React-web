@@ -1,11 +1,37 @@
 .routes {
   padding-right: 26px;
   margin: 0px;
-  text-align: right;
+  text-align: center;
 
   font-size: larger;
 }
 
+nav {
+  background-color: #112b3c;
+  align-items: center;
+  display: flex;
+
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  padding: 4px;
+  width: 4em;
+}
+
 ul {
-  text-align: center;
+  margin: 0px;
+
+  position: absolute;
+  right: 0px;
+}
+
+hr {
+  width: 0px;
+  height: 2.2em;
+  padding: 0px;
+  margin: 6px;
+  border-style: solid;
 }

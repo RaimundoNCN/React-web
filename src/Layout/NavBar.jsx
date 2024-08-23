@@ -1,11 +1,17 @@
 import React from "react";
-import "../Style/StyleNavBar.css";
+import imageReact from "../assets/react.svg";
 import { Link } from "react-router-dom";
+import "../Style/StyleNavBar.css";
 
 const NavBar = () => {
   return (
     <header>
-      <nav className="navBar">
+      <nav>
+        <div>
+          <img src={imageReact}></img>
+        </div>
+        <hr />
+        <h2>Projeto Criativo</h2>
         <ul>
           <Link className="routes" to="/">
             Inicio
@@ -15,7 +21,6 @@ const NavBar = () => {
           </Link>
         </ul>
       </nav>
-      <hr />
     </header>
   );
 };
