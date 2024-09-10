@@ -4,9 +4,7 @@ import AboutUs from "../Components/AboutUs";
 function HomePage() {
   return (
     <>
-      
       <AboutUs />
-      <div>teste</div>
     </>
   );
 }

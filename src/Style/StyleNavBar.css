@@ -13,7 +13,7 @@ nav {
 
   width: 100%;
   margin: 0px;
-  padding: 0px;
+  padding-inline: 16px;
 }
 
 img {
@@ -28,10 +28,3 @@ ul {
   right: 0px;
 }
 
-hr {
-  width: 0px;
-  height: 2.2em;
-  padding: 0px;
-  margin: 6px;
-  border-style: solid;
-}

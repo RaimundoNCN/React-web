@@ -1,5 +1,4 @@
 import React from "react";
-import imageReact from "../assets/react.svg";
 import { Link } from "react-router-dom";
 import "../Style/StyleNavBar.css";
 
@@ -7,11 +6,7 @@ const NavBar = () => {
   return (
     <header>
       <nav>
-        <div>
-          <img src={imageReact}></img>
-        </div>
-        <hr />
-        <h2>Projeto Criativo</h2>
+        <h2>DEV. Front-end</h2>
         <ul>
           <Link className="routes" to="/">
             Inicio
